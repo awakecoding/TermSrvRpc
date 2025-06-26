@@ -1,0 +1,10 @@
+bin/
+obj/
+.vs/
+*.sln
+*.csproj
+build-*/
+cmake/
+/idl/x86
+/idl/x64
+/idl/arm64
