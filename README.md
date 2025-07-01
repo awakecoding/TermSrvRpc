@@ -5,6 +5,7 @@ An implementation of the Terminal Services Terminal Server Runtime Interface Pro
 ## Building
 
 Enter a Visual Studio shell:
+
 ```powershell
 Install-Module VsDevShell
 Enter-VsDevShell

@@ -21,6 +21,13 @@ include_directories("${MIDL_OUTPUT_DIR}")
 add_library(TermSrvRpc_Dll SHARED
     "${MIDL_OUTPUT_DIR}/SessEnvRpc_c.c"
     "${MIDL_OUTPUT_DIR}/SessEnvRpc.h"
+    "${MIDL_OUTPUT_DIR}/tspubrpc_c.c"
+    "${MIDL_OUTPUT_DIR}/tspubrpc.h"
+    "${MIDL_OUTPUT_DIR}/rcmpublic_c.c"
+    "${MIDL_OUTPUT_DIR}/rcmpublic.h"
+    "${MIDL_OUTPUT_DIR}/TSVIPRpc_c.c"
+    "${MIDL_OUTPUT_DIR}/TSVIPRpc.h"
+    midl_user.c
     TermSrvRpc.def
     TermSrvRpc.cpp
     TermSrvRpc.h)
